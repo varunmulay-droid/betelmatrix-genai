@@ -1,3 +1,8 @@
+import { createRoot } from 'react-dom/client';
+
+const container = document.getElementById('root');
+const root = createRoot(container);
+root.render(<App />);
 import React, { useState, useEffect } from 'react';
 import { 
   Server, Activity, ArrowRight, CheckCircle, Cloud, Database, 
